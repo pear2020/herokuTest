@@ -256,8 +256,8 @@ module.exports = class ShwarmaOrder extends Order{
       if(sAmount != "-1"){
         this.nOrder = sAmount;
       }
-     // const sClientID = process.env.SB_CLIENT_ID
-      const sClientID = "AeCo-IWepmHt0a0yVInfViksALhq0wpo-rLtTc5jgyd5vTr_DDk311hOgyDEj-tWN-lm2rWMvLV8KiJg" || 'put your client id here for testing ... Make sure that you delete it before committing'
+      const sClientID = process.env.SB_CLIENT_ID
+    //  const sClientID = "AeCo-IWepmHt0a0yVInfViksALhq0wpo-rLtTc5jgyd5vTr_DDk311hOgyDEj-tWN-lm2rWMvLV8KiJg" || 'put your client id here for testing ... Make sure that you delete it before committing'
       return(`
       <!DOCTYPE html>
   
